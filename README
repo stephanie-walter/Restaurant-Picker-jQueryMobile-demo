@@ -1,0 +1,7 @@
+This is a demo to show what can be done using jQueryMobile and some peace of custom CSS styling.
+
+An application that will enable the user to choose a restaurant based on what they want to eat tonight, the town where they want to eat and other user’s ratings of the restaurants. The jQuery Mobile mini app we’re creating will be called “Restaurant Picker”.
+
+See the tutorial : http://www.noupe.com/tutorial/jquery-mobile-tutorial-creating-a-restaurant-picker-web-app.html
+
+See the demo : http://www.inpixelitrust.fr/demos/restaurant_picker/
