@@ -1,0 +1,258 @@
+/*** general styling */
+.ui-page.ui-body-c{
+background:url(images/bg.png);
+box-shadow:  0px 0px 30px 5px rgba(107, 105, 105, 0.3) inset,
+ 0px 0px 0px 1px rgba(107, 105, 105, 0.4) inset;
+
+}
+
+.ui-icon.ui-icon-arrow-r {
+background-color:rgb(136, 111, 110);
+}
+.ui-corner-all, 
+.ui-corner-top,
+.ui-corner-bottom,
+.ui-corner-tl,
+.ui-corner-tr,
+.ui-corner-bl,
+.ui-header .ui-btn-corner-all,
+.ui-listview-filter .ui-btn-corner-all,
+#restau_infos .ui-btn-corner-all,
+#contact_buttons .ui-btn-corner-all,
+#notation .ui-btn-corner-all{
+border-radius:0.2em;
+}
+
+.ui-btn-active {
+background: #654644; /* Old browsers */
+background: -moz-linear-gradient(top,  #654644 0%, #331c1b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#654644), color-stop(100%,#331c1b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #654644 0%,#331c1b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #654644 0%,#331c1b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #654644 0%,#331c1b 100%); /* IE10+ */
+background: linear-gradient(top,  #654644 0%,#331c1b 100%); /* W3C */
+color:#fff !important;
+}
+.ui-content .choice_list  .ui-btn-active .ui-link-inherit,
+.ui-btn-down-c a.ui-link-inherit,
+#home .ui-btn-down-c a.ui-link-inherit{
+color:#fff !important;
+}
+
+img{
+max-width: 100%;
+height: auto; width: auto;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+.ui-grid-a .ui-block-a, .ui-grid-a .ui-block-b {
+    width: 48%;
+    padding:1%;
+}
+
+
+
+
+
+/* title bar */
+.ui-header.ui-bar-a{
+background:url(images/header_bg.png);
+}
+.ui-header .ui-title {
+text-indent:-9999px;
+font-size:0px;
+background:url(images/header_logo.png) no-repeat 69% 5px ;
+height:33px;
+padding:5px 0 5px 50px;
+margin:0px;
+}
+
+.ui-header  .ui-btn-up-a  {
+background:rgba(255, 255, 255, 0.1);
+box-shadow:none;
+}
+.ui-header  .ui-btn-hover-a {
+background:rgba(0, 0, 0, 0.3);
+box-shadow:none;
+}
+
+
+
+
+/*** home **/
+
+#branding{
+background:url(images/logo.png) no-repeat;
+width:322px;
+height:165px;
+text-indent:-999px;
+font-size:0px;
+margin:-10px auto 0 auto;
+border-bottom:1px solid rgba(65, 38, 37, 0.6);
+}
+
+.choice_list h1{
+margin-top:30px;
+font-size:18px;
+color:rgb(65, 38, 37);
+font-weight:normal;
+font-style:italic;
+padding:5px 0 6px 50px;
+background:url(images/pagination.png) no-repeat;
+}
+
+#home .choice_list h1{
+background-position: 0 -16px;
+}
+#home .choice_list  h3{
+padding-top:10px;
+color:rgb(63, 41, 39);
+}
+#home .choice_list .ui-btn-active  a.ui-link-inherit h3{
+color:#fff;
+}
+.choice_list  img{
+padding:3px;
+}
+
+
+
+/** Chose the town **/
+
+#choisir_ville .choice_list h1{
+background-position: 0 -72px;
+margin-bottom:20px;
+}
+#choisir_ville .choice_list a{
+padding-top:10px;
+color:rgb(63, 41, 39);
+}
+#choisir_ville .ui-listview-filter a{
+padding-top:0px;
+}
+
+
+/** choix du restaurant **/
+#choisir_restau .choice_list h1{
+background-position: 0 -132px;
+margin:10px auto 20px auto;
+}
+#choisir_restau .choice_list a{
+padding-top:10px;
+color:rgb(63, 41, 39);
+}
+
+#choisir_restau .classement{
+display:inline-bloc;
+background:url(images/pagination.png) no-repeat  0 -182px;
+height:22px;
+text-indent:-999px;
+font-size:0px;
+}
+
+#choisir_restau .one{
+width:30px;
+}
+#choisir_restau .two{
+width:55px;
+}
+#choisir_restau .three{
+width:75px;
+}
+#choisir_restau .four{
+width:99px;
+}
+
+
+
+
+
+
+
+/** restau **/
+#restau_infos,
+#contact_infos {
+color:rgb(63, 41, 39);
+font-size:14px;
+}
+#restau_infos h1,
+#contact_infos h2,
+#notation h2{
+color:rgb(63, 41, 39);
+font-size:18px;
+margin:0 auto 5px auto;
+}
+
+#restau_infos p,
+#restau_infos ul,
+#contact_infos p{
+margin:2px auto 5px auto;
+}
+#restau_infos ul{
+padding:0 0 0 10px;
+}
+#restau_infos ul  li{
+list-style-type:square;
+margin-left:5px;
+}
+
+#restau_infos .ui-block-b .ui-btn {
+font-size:12px;
+}
+#restau_infos .ui-block-b .ui-btn-inner{
+padding:5px;
+}
+
+#contact_buttons a{
+color:rgb(63, 41, 39);
+}
+
+.ui-icon-maps {
+background: rgb(63, 41, 39) url(images/maps.png) no-repeat;
+}
+.ui-icon-tel{
+background: rgb(63, 41, 39) url(images/phone.png) no-repeat;
+}
+
+/** add the stars to the drop down */
+#note_utilisateur-menu a{
+padding-left:100px;
+position:relative;
+}
+
+#note_utilisateur-button span.ui-btn-text{
+background:url(images/pagination.png) no-repeat;
+} 
+
+#note_utilisateur-button span.ui-btn-inner{
+	padding-left:5px;
+} 
+
+#note_utilisateur-menu li a:before{
+content: "   ";
+display:inline-block;
+width:115px;
+height:20px;
+background:url(images/pagination.png) no-repeat;
+position:absolute;
+left:0px;
+}
+.one #note_utilisateur-button span.ui-btn-text,
+#note_utilisateur-menu li a:before{
+background-position: -75px -182px;
+}
+.two #note_utilisateur-button span.ui-btn-text,
+#note_utilisateur-menu li + li a:before{
+background-position: -52px -182px;
+}
+.three #note_utilisateur-button span.ui-btn-text,
+#note_utilisateur-menu li + li +li a:before{
+background-position: -27px -182px;
+}
+.four #note_utilisateur-button span.ui-btn-text,
+#note_utilisateur-menu li + li +li +li a:before{
+background-position: -2px -182px;
+}
+
+
