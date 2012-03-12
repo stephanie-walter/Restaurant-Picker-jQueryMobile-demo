@@ -134,6 +134,9 @@ padding-top:0px;
 
 
 /** choix du restaurant **/
+.choice_list{
+margin-top:30px;
+}
 #choisir_restau .choice_list h1{
 background-position: 0 -132px;
 margin:10px auto 20px auto;
