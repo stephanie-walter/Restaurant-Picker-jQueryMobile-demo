@@ -1228,7 +1228,7 @@ div.ui-mobile-viewport { overflow-x: hidden; }
 .ui-footer .ui-title { margin: .6em 15px .8em;  }
 
 /*content area*/
-.ui-content { border-width: 0; overflow: visible; overflow-x: hidden; padding: 15px; }
+.ui-content { border-width: 0; overflow: visible; overflow-x: hidden; padding: 30px 15px 15px; }
 .ui-page-fullscreen .ui-content { padding:0; }
 
 /* native fixed headers and footers */
