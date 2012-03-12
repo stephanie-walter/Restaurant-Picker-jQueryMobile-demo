@@ -58,8 +58,6 @@ box-sizing: border-box;
 /* title bar */
 .ui-header.ui-bar-a{
 background:url(images/header_bg.png);
-position:fixed;
-z-index: 2;
 }
 .ui-header .ui-title {
 text-indent:-9999px;
